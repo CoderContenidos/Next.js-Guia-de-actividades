@@ -6,11 +6,11 @@ import Loading from "../../../../components/Loading";
 export default async function ContactDetailPage({ params }) {
   const { id } = params;
   try {
-    // Fetching data from an external API (Server Side Rendering)
+    // Fetching data de una API externa (Server Side Rendering)
     const fetchUsers = () => {return fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json()); };
     // Fetching data and caching it
     const ArrayUsers = await fetchUsers();
-    // Finding the specific contact by ID
+    // Encontrar el contacto especifico por ID
     const contacto = ArrayUsers.find((contacto) => contacto.id.toString() === id);
     if (!contacto) {
       return (
