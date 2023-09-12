@@ -156,10 +156,12 @@ return (
             cursor: "pointer", margin: "10px 0", width: "100%", alignItems: "center" }}>
               Guardar cambios
             </button>
-            <button onClick={handleDelete} style={{ backgroundColor: "red", color: "#fff", border: "none", borderRadius: "4px", padding: "10px", 
-            cursor: "pointer", margin: "10px 0", width: "100%", alignItems: "center" }}>
-              Cancelar
-            </button>
+            <button onClick={() => {
+            setEditMode(false);
+            setUpdatedContacto(contacto); 
+        }} style={{ backgroundColor: "red", color: "#fff", border: "none", borderRadius: "4px", padding: "10px", cursor: "pointer", margin: "10px 0", width: "100%", alignItems: "center" }}>
+          Cancelar
+        </button>
           </>
         ) : (
           // Mostrar campos no editables si editMode es falso
