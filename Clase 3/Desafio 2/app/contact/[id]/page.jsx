@@ -1,5 +1,5 @@
 import React from "react";
-import contactClass from "../../../../pages/ContactsPage/contactClass";
+import contactClass from "../../../../views/ContactsPage/contactClass";
 import Link from "next/link";
 
 export default function ContactDetailPage({ params }) {

@@ -1,4 +1,4 @@
-import ProfilePage from "../../../pages/ProfilePage/ProfilePage"
+import ProfilePage from "../../../views/ProfilePage/ProfilePage"
 
 //Add custom <head> 
 export const metadata = {

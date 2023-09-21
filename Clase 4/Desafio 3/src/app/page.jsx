@@ -1,4 +1,4 @@
-import HomePage from "../../pages/HomePage/HomePage"
+import HomePage from "../../views/HomePage/HomePage"
 
 //Add custom <head> 
 export const metadata = {

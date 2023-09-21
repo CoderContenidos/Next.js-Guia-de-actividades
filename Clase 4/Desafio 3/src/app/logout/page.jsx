@@ -1,4 +1,4 @@
-import LogoutPage from "../../../pages/LogoutPage/LogoutPage"
+import LogoutPage from "../../../views/LogoutPage/LogoutPage"
 
 //Add custom <head> 
 export const metadata = {

@@ -1,4 +1,4 @@
-import AddContactPage from "../../../../pages/ContactsPage/AddContactPage"
+import AddContactPage from "../../../../views/ContactsPage/AddContactPage"
 
 //Add custom <head> 
 export const metadata = {

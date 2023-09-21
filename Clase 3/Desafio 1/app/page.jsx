@@ -1,4 +1,4 @@
-import HomePage from "../../pages/HomePage/HomePage"
+import HomePage from "../../views/HomePage/HomePage"
 
 export const metadata = {
   title: 'Coderhouse Next.Js | Inicio',
